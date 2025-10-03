@@ -1,7 +1,7 @@
 from math import log2, ceil
 
 def f(x: float) -> float:
-    return (3/4)*x**3 + 2*x**2 + x - 9
+    return (2/3)*x**4 + x**3 - 3*x**2 + 5*x + 9
 
 # Tolerancia sobre la longitud del intervalo
 eps = 1e-3
